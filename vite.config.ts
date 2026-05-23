@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/react-refresh' // 또는 @vitejs/plugin-react
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/mediflow-ai-care/', // 👈 이 한 줄을 똑같이 추가해 주세요!
